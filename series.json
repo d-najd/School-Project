@@ -1,0 +1,84 @@
+[
+    {
+        "title": "Lucifer",
+        "id": 0,
+        "description": "Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.",
+        "starring": "Tom Ellis, Lauren German, Kevin Alejandro",
+        "creators": "Steven Knight",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdvTEbcqWIVSCe2gEgWXwpts5Gqa-BfAjo0_lIBvQXWJNMCwS3YbhkEXSs3Sr0dqqBR3b7XmW71P0fqVHcAjhIrQXojRChHCUFoN.jpg?r=321",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZTf4aA8SWf1KVmPxArVC-JHtw6AbTx3JvDCIvnfxHVxJ_ixEwEugIa5hievTKpUPZfFX4yL8TyASn_h2xfsInFukoEJypO_x2pt806mz3UHC4y-YDLa6dtK_W0FQmNZ6UlZ.jpg?r=31e",
+        "release": 2016,
+        "runtime": 45,
+        "seasons": 6,
+        "age": 13,
+        "genres": [
+            "Mystery",
+            "Comedy",
+            "Drama",
+            "Popular"
+        ]
+    },
+
+    {
+        "title": "Peaky Blinders",
+        "id": 1,
+        "description": "A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.",
+        "starring": "Cillian Murphy, Sam Neill, Helen McCrory",
+        "creators": "Steven Knight",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ8XKePDYiwfnUoOMXQzEQlRRGGAw97LvbYwJGoVE1gI2M4cCqKGnGu6rFA28a4_MqRbAZqpGFNF0FB0TZRK3wFEg6bSJ1vCmATP.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABboHwJMbqXGl-tqH-503zwwG0dtvDjmRS_4zHT3upONYWS6oQ9ds6BNv8-LIZfwxk19AC_UVpn9UM6N5zy-r38oPu_kFeu_thzDqNRRkOCPfTASWm0u0m_GZR4Qh7rf9MH9g.jpg?r=b23",
+        "release": 2013,
+        "runtime": 55,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Historical Fiction",
+            "Popular"
+        ]
+    },
+
+
+    {
+        "title": "Money Heist",
+        "id": 2,
+        "description": "Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.",
+        "starring": "Úrsula Corberó, Álvaro Morte, Itziar Ituño",
+        "creators": "Álex Pina",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZmakScbYf0VnUuAMcNKX2fvWcMhPc05rGSPB2K40iTaPuopC1cHqeBNV2y3lOmPrCj928frrP-Xn5SG8aOaLF04eYQQ6Vaag8bQGK8u56F7qEBFPXRJB6RizZMyN0zX5EjC.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Crime",
+            "Popular",
+            "Drama",
+            "Comedy"
+        ]
+    }, 
+
+    {
+        "title": "Squid Game",
+        "id": 3,
+        "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+        "starring": "Lee Jung-jae, Park Hae-soo, Wi Ha-jun",
+        "creators": "Hwang Dong-hyuk",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABW2vHT_kRiIFO3spVWZwdWkXcxqJNrqkwN9mRw8q-yiY0hi3ho64Ce5nh3QXG4F5oaEZUDNYCWK8y-aKlaUMEsTmOd3mOZwIfvEQ.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABReXbP7eB0iPATMCkKxpoyi0z0Zms3uP4HF0rII0FtnSalT-1lGVaR_j2x-16th1mWUnjb1vyoXB9aW7TxG30jZBXQQxcBRHP0RLdgXR8KhJqC3dRyDDciIhtdEf_R0PcF64.jpg?r=f9b",
+        "release": 2021,
+        "runtime": 50,
+        "seasons": 1,
+        "age": 16,
+        "genres": [
+            "Survival",
+            "Popular",
+            "Drama",
+            "Thriller",
+            "Horror",
+            "Action"
+        ]
+    }
+]
