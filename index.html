@@ -68,6 +68,10 @@
         #genreList h2{
             color: white;
         }
+
+        li{
+            display: inline-block;
+        }
     </style>
 </head>
 <body style="background-color:#090909">
@@ -86,18 +90,11 @@
     </div>
 
     <div id="genreList">
-        <h2>Popular</h2>
-        <ul>
-            </li>
-                <img src="https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZTf4aA8SWf1KVmPxArVC-JHtw6AbTx3JvDCIvnfxHVxJ_ixEwEugIa5hievTKpUPZfFX4yL8TyASn_h2xfsInFukoEJypO_x2pt806mz3UHC4y-YDLa6dtK_W0FQmNZ6UlZ.jpg?r=31e">
-            </li>
-            </li>
-                <img src="https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZmakScbYf0VnUuAMcNKX2fvWcMhPc05rGSPB2K40iTaPuopC1cHqeBNV2y3lOmPrCj928frrP-Xn5SG8aOaLF04eYQQ6Vaag8bQGK8u56F7qEBFPXRJB6RizZMyN0zX5EjC.jpg?r=695">
-            </li>
-            </li>
-                <img src="https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABReXbP7eB0iPATMCkKxpoyi0z0Zms3uP4HF0rII0FtnSalT-1lGVaR_j2x-16th1mWUnjb1vyoXB9aW7TxG30jZBXQQxcBRHP0RLdgXR8KhJqC3dRyDDciIhtdEf_R0PcF64.jpg?r=f9b">
-            </li>
-        </ul>
+        <div title="Popular"></div>
+        <div title="Crime"></div>
+        <div title="Action"></div>
+        <div title="Drama"></div>
+        <div title="Survival"></div>
     </div>
     </body>
     <script>
@@ -212,8 +209,6 @@
             for (var i = 0; i < genres.length; i++){
                 genres[i].idList = shuffle(genres[i].idList);
             }
-
-            console.log(genres);
         }
 
         function shuffle(list){ //nice
@@ -235,7 +230,7 @@
                     break;
                 }
             }
-            console.log(curShowId);
+
             for (var i = 0; i < series.length; i++){
                 if (series[i].id === curShowId){
                     curShow = series[i];
@@ -258,10 +253,38 @@
             "   </div>"    
         }
 
-
-        function addSubCards(){
-            
+        function addSubCards() {
+            var genresListDiv = document.getElementById("genreList");
+            var children = genresListDiv.children;
+            console.log(genres);
+            for (var i = 0; i < children.length; i++){
+                curChild = children[i];
+                var title = curChild.title;
+                var genre = genres.find(o => o.genre === title) //I hate this language
+                if (genre == null){
+                    console.log("invalid genre subcard");
+                } else {
+                    curChild.innerHTML = 
+                    "<h2>" + title + "</h2>\n" +
+                    "   <ul>\n";
+                        console.log(curChild.innerHTML)
+                    for (var b = 0; b < genre.idList.length; b++) { //why is there not a for-each loop?????????????????
+                        var test = series.find(o => o.id === genre.idList[b]);
+                        var curInnerHtml = curChild.innerHTML;
+                        if (test == null){
+                            console.log("invalid show subcard");
+                        }
+                        curChild.innerHTML = curInnerHtml + 
+                        "     <li>\n" +
+                        "           <img src='" + test.foregroundImage + "'>\n" +
+                        "     <\li>\n";
+                    }
+                    curChild.innerHTML = curChild.innerHTML + "   </ul>\n";
+                    
+                }
+            }
         }
+
         constructor();
         addMainCard();
         addSubCards();
