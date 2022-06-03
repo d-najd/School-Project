@@ -14,7 +14,6 @@
         "genres": [
             "Mystery",
             "Comedy",
-            "Drama",
             "Popular"
         ]
     },
@@ -33,7 +32,6 @@
         "age": 16,
         "genres": [
             "Crime",
-            "Drama",
             "Historical Fiction",
             "Popular"
         ]
@@ -55,7 +53,6 @@
         "genres": [
             "Crime",
             "Popular",
-            "Drama",
             "Comedy"
         ]
     }, 
@@ -75,9 +72,146 @@
         "genres": [
             "Survival",
             "Popular",
-            "Drama",
             "Thriller",
             "Horror",
+            "Action"
+        ]
+    },
+
+    {
+        "title": "Breaking Bad",
+        "id": 4,
+        "description": "A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal meth.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSg7h75hca17p0a2F9a3GImLpvoBQZs0VOGF92IxCwXiTwGlq_tEVLViUEQT0YOjh1MCmCL9Uhmnw_nJgvd_FGahW9iIpU9WYIiN.jpg?r=e04&quot",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVw-FSoUCSeL9jjziqg8_s8JU3uBj0dFj_ChjY-5FnYcrARuHCcjR7j4_F2WOS7tlUU6lvz3q15t79MZZCLqBa6vLqE1gj4bQRY.jpg?r=01d",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Crime",
+            "Popular",
+            "Thriller",
+            "Tragedy",
+            "Neo-Western",
+            "Black comedy"
+        ]
+    }, 
+
+    {
+        "title": "The Blacklist",
+        "id": 5,
+        "description": "After turning himself in, a brilliant fugitive offers to help the FBI bag other baddies, but only if rookie profiler Elizabeth Keen is his partner.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUrQUVEkNUHgJNutlhUSHjlkUFj0vypaWp90etJnUIa_KkvVZdb_2fUT636BxpGHC0gkn-K26jyx9Ud7-KJD0hxBiELzooJjb1JL.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTseN2l9UtbiYG4HfeQ012gcxzL0ryFXGy8evyUWzcWyGuRrfcwOVusjiaD4ymTgvE2O4niRAB5hex9g-Js4siYZFwr1Ss3H2XO-k5233VSMPt47KkPSZvHOZglx5Qtih86terl1aA.jpg?r=f02",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Popular",
+            "Crime",
+            "Action",
+            "Thriller",
+            "Mystery"
+        ]
+    },
+
+    {
+        "title": "The Good Doctor",
+        "id": 6,
+        "description": "A talented surgeon with autism and savant syndrome joins a prestigious hospital, where he faces skepticism from both the patients and staff.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRxCJSVdFN8lJ_eSVhGevvYMzk0OLAozpunjhrC_9J_8tREBn4_m2sOHLe9l1GzsTJMq_7yv4jyosYsybOtgBZrsrp59064oa5kL.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeBc-f8qKZoSAVTczVfCshrXPa-P70BsEj29JRatm5dgh78UAPlaRhHqh5knXg2xhqxBdaVbisUpUghADXLWwOKLFnntwMzGZIM.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Popular",
+            "Medical drama"
+        ]
+    },
+
+    {
+        "title": "Vikings",
+        "id": 7,
+        "description": "This gritty drama charts the exploits of Viking hero Ragnar Lothbrok as he extends the Norse reach by challenging an unfit leader who lacks vision.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABa8IXG6QsIiB663K_eVXj6QoDtN76B2zYxXMI2mAD_F4P0UZDXmRfrH3GDJ6yCcRi3r1hPTEhoQyBqcbB3r_mTom_7cvHjhW94vH.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTy2fZR_5D9uj6dv2mYfVuDGKss7C0S3EnGHZ2t_P4PS763HXggS3Xuy35Yyu-nTdf0lVQFcFpfQMAXWpknz2P-ZAD6OhuqaFNY.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Popular",
+            "Medical drama"
+        ]
+    },
+
+    {
+        "title": "Vikings",
+        "id": 8,
+        "description": "This gritty drama charts the exploits of Viking hero Ragnar Lothbrok as he extends the Norse reach by challenging an unfit leader who lacks vision.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABa8IXG6QsIiB663K_eVXj6QoDtN76B2zYxXMI2mAD_F4P0UZDXmRfrH3GDJ6yCcRi3r1hPTEhoQyBqcbB3r_mTom_7cvHjhW94vH.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTy2fZR_5D9uj6dv2mYfVuDGKss7C0S3EnGHZ2t_P4PS763HXggS3Xuy35Yyu-nTdf0lVQFcFpfQMAXWpknz2P-ZAD6OhuqaFNY.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Historical",
+            "Popular",
+            "Adventure",
+            "Action"
+        ]
+    }, 
+
+    {
+        "title": "The Witcher",
+        "id": 9,
+        "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWLqqfIxOhGGjSyegfImujv6mz09DyEV5Qi-SSSH_KtcICTPpu2YosnVhIGTjbXO94Sx7irIIuq2-U-FKdXH1cv-S949lIHrdMCc.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABY0V35KZlRAMfDi7_pe3EiHpisg1yr4AUDwPg4tqDvqw8ftfLVk4sjB7-h_w4XoiTN0xMHFY8hNXKeeI9s5_6zexaabaJkIyEGHtZ5yGBExL2F55n73ArzQ7cvYigMnofvys.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Fantasy",
+            "Popular",
+            "Adventure",
+            "Action"
+        ]
+    }, 
+
+    {
+        "title": "The Flash",
+        "id": 10,
+        "description": "A forensics expert who wakes from a coma with amazing new powers squares off against forces threatening the city in this live-action superhero romp.",
+        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
+        "creators": "Vince Gilligan",
+        "backgroundImage": "https://occ-0-6487-2773.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbauvZUIbNI6eImkX0EwPlLebgDbp8L48Xe64L1PTlib80vNFhTrLrEseISN4EOZPrh3j5hZQ0i4S-ww252OcuaGjIzM0pvDUjlJ.jpg",
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABReZbw5AmlNYknGZH5ScPcaTnP22gwTRpEw_rb8GCnxn2KqscsNBXriBmdkXIaD2tWvunxAER7do_beu0IW6vO4LmakTGmtGO8o.jpg",
+        "release": 2017,
+        "runtime": 50,
+        "seasons": 5,
+        "age": 16,
+        "genres": [
+            "Superhero",
+            "Popular",
             "Action"
         ]
     }
