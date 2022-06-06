@@ -32,7 +32,7 @@
         "age": 16,
         "genres": [
             "Crime",
-            "Historical Fiction",
+            "Historical",
             "Popular"
         ]
     },
@@ -95,8 +95,7 @@
             "Popular",
             "Thriller",
             "Tragedy",
-            "Neo-Western",
-            "Black comedy"
+            "Neo-Western"
         ]
     }, 
 
@@ -158,26 +157,6 @@
     },
 
     {
-        "title": "Vikings",
-        "id": 8,
-        "description": "This gritty drama charts the exploits of Viking hero Ragnar Lothbrok as he extends the Norse reach by challenging an unfit leader who lacks vision.",
-        "starring": "Bryan Cranston, Aaron Paul, Anna Gunn",
-        "creators": "Vince Gilligan",
-        "backgroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABa8IXG6QsIiB663K_eVXj6QoDtN76B2zYxXMI2mAD_F4P0UZDXmRfrH3GDJ6yCcRi3r1hPTEhoQyBqcbB3r_mTom_7cvHjhW94vH.jpg",
-        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTy2fZR_5D9uj6dv2mYfVuDGKss7C0S3EnGHZ2t_P4PS763HXggS3Xuy35Yyu-nTdf0lVQFcFpfQMAXWpknz2P-ZAD6OhuqaFNY.jpg",
-        "release": 2017,
-        "runtime": 50,
-        "seasons": 5,
-        "age": 16,
-        "genres": [
-            "Historical",
-            "Popular",
-            "Adventure",
-            "Action"
-        ]
-    }, 
-
-    {
         "title": "The Witcher",
         "id": 9,
         "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
@@ -213,6 +192,59 @@
             "Superhero",
             "Popular",
             "Action"
+        ]
+    },
+
+    {
+        "title": "Rick and Morty",
+        "id": 11,
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbSv6_SK2Mgn4ZEEYByXFdknimNDobhEqCpSbYg2YBKT5cXfUkiabGf9t25539FiBcimVWZsc5v9szbPleUPppt5x0tDEdRnjLg.jpg?r=145",
+        "genres": [
+            "Adventure",
+            "Science Finction",
+            "Action",
+            "Comedy"
+        ]
+    },
+
+    {
+        "title": "The Office",
+        "id": 12,
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXzMUctaOMFfrUVpmruOMqGumUzFG3pr6AhZp1tAUAmKfAxSvHusFR6LnEtRLTKGp1g0CwFF1QMxnp7J5-eRUJ2sjqeunXiQZco.jpg?r=4fc",
+        "genres": [
+            "Comedy",
+            "Romance"
+        ]
+    },
+
+    {
+        "title": "The Last Kingdom",
+        "id": 13,
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe3ZXElfE_1bXLjucAWlI-hMeJoGbFY8mHbQBVg32bjvLNXPz371COIjSM19ByFr_EMZahzf6xsG6q_CZEQ7I76pVGn3d2kJxvZvnDAIrZiocyql4uB9n91A56LH1ndX131H.jpg?r=5a4",
+        "genres": [
+            "Action",
+            "Historical"
+        ]
+    },
+
+    {
+        "title": "Lost in Space",
+        "id": 14,
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABU5L5lQw6yZiXJWNXq9CS2__5W4AkjqPr1u0nQxDcmF95IffhOmrZUJRf1fmdTjwc9MyE0R8mbdNC2Nk0ERB-oJX3kd64ay9hgHEOxSdSzvOksgBWWIRIXTeEthAoHznNdlz.jpg?r=0b3",
+        "genres": [
+            "Science Finction",
+            "Adventure"
+        ]
+    },
+
+    {
+        "title": "Sherlock",
+        "id": 15,
+        "foregroundImage": "https://occ-0-6487-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRoNWPd2MYHr6yn6rAoUo5mQNbTUlqvnbsqqA_BwZ8Yz_tDv2rGwIM8yEMAiGCELsKs2Xvik-H_FMhc7hu5KfmXmZDdDEca8RwM.jpg?r=5fd",
+        "genres": [
+            "Mystery",
+            "Crime",
+            "Comedy"
         ]
     }
 ]

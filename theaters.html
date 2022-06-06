@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Document</title>
+    <style>
+        div {
+            color: white;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .titleCard{
+            padding: 10px;
+            background-color: rgb(28, 44, 44);
+        }
+
+        .titleCard h1{
+            color: white;
+            text-align: center;
+        }
+
+        .bodyCard {
+            padding: 10px;
+            background-color: rgb(5, 36, 36);
+        }
+
+        .bodyCard div{
+            width: fit-content;
+            color: white;
+            margin-top: 25px;
+            margin-bottom: 5px;
+            margin-left: 3px;
+        }
+
+        .bodyCard h2{
+            text-shadow: 10px;
+        }
+
+        #crossed p{
+            text-decoration: line-through;
+        }
+
+        #crossed h2{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+          <a href="index.html">Home</a>
+          <a href="theaters.html">Theaters</a> <!--shows when movies are available n stuff-->
+          <a href="#">Genres</a>
+          <a class="">Pages</a> <!--all the pages available-->
+          <a style="float: right; margin-right: 3%;" href="signup.html">Sign up</a>
+        </nav>
+      </header>
+
+    <div class="container" style="margin-top: 25px">
+        <table style="width: 100%"><!--stop complainin will ya-->
+            <tr>
+                <td>
+                    <div class="titleCard">
+                        <h1>January</h1>
+                    </div>
+                </td>
+                <td>
+                    <div class="titleCard">
+                        <h1>February</h1>
+                    </div>
+                </td>
+                <td>
+                    <div class="titleCard">
+                        <h1>March</h1>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bodyCard" id="crossed">
+                        <div>
+                            <h2>Monday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The 400 Blows</p>
+                            </li>
+                            <li>
+                                <p>La Haine</p>
+                            </li>
+                            <li>
+                                <p>The Godfather</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thuesday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The Godfather Part II</p>
+                            </li>
+                            <li>
+                                <p>The Departed</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Wednsday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>White Heat</p>
+                            </li>
+                            <li>
+                                <p>Eddie Murphy: Raw</p>
+                            </li>
+                            <li>
+                                <p>All Quiet on the Western Front</p>
+                            </li>
+                            <li>
+                                <p>Duck Soup</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thursday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Mafioso</p>
+                            </li>
+                            <li>
+                                <p> Stalag 17</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Friday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The Dark Knight</p>
+                            </li>
+                            <li>
+                                <p>Fight Club</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Saturday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Batman Begins</p>
+                            </li>
+                            <li>
+                                <p>The Big Lebowski</p>
+                            </li>
+                            <li>
+                                <p>Snatch</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Sunday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Gladiator</p>
+                            </li>
+                            <li>
+                                <p>Crash</p>
+                            </li>
+                            <li>
+                                <p>Big Fish</p>
+                            </li>
+                            <li>
+                                <p>Seven Samurai</p>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="bodyCard">
+                        <div>
+                            <h2><s>Monday</s></h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p><s>The 400 Blows</s></p>
+                            </li>
+                            <li>
+                                <p><s>La Haine</s></p>
+                            </li>
+                            <li>
+                                <p><s>The Godfather</s></p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thuesday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p><s>The Godfather Part II</s></p>
+                            </li>
+                            <li>
+                                <p>The Departed</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Wednsday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>White Heat</p>
+                            </li>
+                            <li>
+                                <p>Eddie Murphy: Raw</p>
+                            </li>
+                            <li>
+                                <p>All Quiet on the Western Front</p>
+                            </li>
+                            <li>
+                                <p>Duck Soup</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thursday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Mafioso</p>
+                            </li>
+                            <li>
+                                <p> Stalag 17</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Friday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The Dark Knight</p>
+                            </li>
+                            <li>
+                                <p>Fight Club</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Saturday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Batman Begins</p>
+                            </li>
+                            <li>
+                                <p>The Big Lebowski</p>
+                            </li>
+                            <li>
+                                <p>Snatch</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Sunday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Gladiator</p>
+                            </li>
+                            <li>
+                                <p>Crash</p>
+                            </li>
+                            <li>
+                                <p>Big Fish</p>
+                            </li>
+                            <li>
+                                <p>Seven Samurai</p>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="bodyCard">
+                        <div>
+                            <h2>Monday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The 400 Blows</p>
+                            </li>
+                            <li>
+                                <p>La Haine</p>
+                            </li>
+                            <li>
+                                <p>The Godfather</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thuesday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The Godfather Part II</p>
+                            </li>
+                            <li>
+                                <p>The Departed</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Wednsday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>White Heat</p>
+                            </li>
+                            <li>
+                                <p>Eddie Murphy: Raw</p>
+                            </li>
+                            <li>
+                                <p>All Quiet on the Western Front</p>
+                            </li>
+                            <li>
+                                <p>Duck Soup</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Thursday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Mafioso</p>
+                            </li>
+                            <li>
+                                <p> Stalag 17</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Friday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>The Dark Knight</p>
+                            </li>
+                            <li>
+                                <p>Fight Club</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Saturday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Batman Begins</p>
+                            </li>
+                            <li>
+                                <p>The Big Lebowski</p>
+                            </li>
+                            <li>
+                                <p>Snatch</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <h2>Sunday</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Gladiator</p>
+                            </li>
+                            <li>
+                                <p>Crash</p>
+                            </li>
+                            <li>
+                                <p>Big Fish</p>
+                            </li>
+                            <li>
+                                <p>Seven Samurai</p>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
